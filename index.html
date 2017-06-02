@@ -1,0 +1,108 @@
+<!doctype html>
+    
+<html>
+<head>
+    <title>Nicholas Gould</title>
+    
+    <!-- disable device scaling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="img/icon.png">
+    
+    <!-- CSS -->
+    <link href="css/master.css" rel="stylesheet" type="text/css">
+    
+    <!-- Google Fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+    </style>
+
+    <!-- Font Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    
+    <!-- typed.js -->
+    <script src="js/typed.min.js"></script>
+    <script>
+        $(function(){
+            $(".element").typed({
+                strings: ["Hi.", "My name is Nick.", "I'm a student in web design.", "I like to make rich, beautiful web experiences.", "I'd like ^500", "I'd love to get to know you."],
+                typeSpeed: 0
+            });
+        });
+        
+        //curser fix from topherhunt: https://github.com/mattboldt/typed.js/issues/60
+        function jiggle_cursor(){
+          $('.typed-cursor').toggle();
+          setTimeout(function(){ jiggle_cursor(); }, 600);
+        }
+
+        jiggle_cursor();
+    </script>
+    
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container-fluid">
+        <div class="full-page">
+            <div class="row">
+                <div id="typed" class="col-xs-10 col-xs-offset-1">
+                    <div class="col-xs-12">
+                        <h1><span class="element"></span></h1>
+                        <div class="home-links">
+                            <div class="col-xs-12 col-sm-2">
+                                <a href="portfolio.html" alt="View Portfolio"><i class="fa fa-book"></i> View Portfolio</a>
+                            </div>
+                            <div class="col-xs-12 col-sm-2">
+                                <a href="resume.html" alt="View Resume"><i class="fa fa-file-text"></i> View Resume</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="footer col-xs-12">
+                    <div class="contact">
+                        <div class="col-xs-10 col-xs-offset-1">
+                            <h3>Nick Gould</h3>
+                            <p>B.S. Computer Graphics Technology: Web Design &amp; Development<br/><span class="hidden-link"><a href="https://www.purdue.edu/">Purdue University:</a></span> <span class="hidden-link"><a href="https://polytechnic.purdue.edu/">Purdue Polytechnic institute</a></span><br/></p>
+                            <p>
+                                <a href="mailto:ngould95@gmail.com">Mail</a>
+                                <a href="portfolio.html" alt="Portfolio">Portfolio</a>
+                                <a href="resume.html" alt="Resume">Resume</a>
+                                <a href="about.html">About</a>
+                            </p>
+                        </div> <!-- end col -->
+                    </div> <!-- end contact -->
+                </div> <!-- end footer -->
+            </div> <!-- end row -->
+        </div>
+    </div>
+</body>
+    
+<script type = "text/javascript">  
+//Fade in script from CodingWonders90 on Stack Overflow: http://stackoverflow.com/questions/14636362/show-div-after-2-seconds-of-page-load
+$(window).load(function() {
+    setTimeout(function() {
+        $(".home-links").show('fadeIn', {}, 1000)
+    }, 13000);
+});
+</script>
+    
+</html>

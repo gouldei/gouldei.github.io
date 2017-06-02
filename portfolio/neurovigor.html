@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+    
+<html>
+<head>
+    <title>Neuro Vigor // Nicholas Gould</title>
+    
+    <!-- disable device scaling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="../img/icon.png">
+    
+    <!-- CSS -->
+    <link href="../css/master.css" rel="stylesheet" type="text/css">
+    
+    <!-- Google Fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+    </style>
+
+    <!-- Font Awesome -->
+    <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    
+    <!-- typed.js -->
+    <script src="../js/typed.min.js"></script>
+    <script>
+        $(function(){
+            $(".element").typed({
+                strings: ["Neuro Vigor"],
+                typeSpeed: 0
+            });
+        });
+    </script>
+    
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #333;
+        }
+    </style>
+    
+    <script type="text/javascript">
+        //smooth crolling with bootstrap carousel exception by Mark E on StackOverflow: http://stackoverflow.com/questions/17536379/twitter-bootstrap-carousel-right-left-arrows-not-working
+
+        $(function() {
+            $('a[href*=#]:not([href=#])').click(function() {
+                if( ($(this).attr("href")=="#carousel")) return;//This is the exception
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="container-fluid">
+        <div class="full-page">
+            <div class="row">
+                <div id="typed" class="col-xs-10 col-xs-offset-1">
+                    <div class="col-xs-12">
+                        <h1><span class="element"></span></h1>
+                    </div> <!-- end col -->
+                </div> <!-- end typed -->
+            </div> <!-- end row -->
+
+            <div class="row">
+                <div class="description col-xs-10 col-xs-offset-1">
+                    <div class="col-xs-12">
+                        <p>As part of our Human-Centered Design Experience Studio we worked with Neuro Vigor, a pharmaceutical startup in the Purdue Research Foundation.</p>
+                        <p>Team Members: Cameron Grundy, Kaela Disney, Nick Gould</p>
+                        <p>Needs:</p>
+                        <ul>
+                            <li>Modern Design</li>
+                            <li>Appeal to collaborators & investors</li>
+                            <li>Hassle-free way to manage the site & update content</li>
+                        </ul>
+                        <br/>
+                        <a href="#">Site not yet launched</a><br/>
+                    </div> <!-- end col -->
+                </div> <!-- end description -->
+            </div> <!-- end row -->
+            
+            <div class="row">
+                <div class="scroll col-xs-12">
+                    <div class="scroll-content">
+                        <div class="scroll-image">
+                            <img src="../img/scroll.png" alt="Scroll Down" class="img-responsive" />
+                        </div>
+                        <div class="scroll-text">
+                            <a href="#portfolio-content"> Scroll Down</a>
+                        </div>
+                    </div> <!-- end col -->
+                </div> <!-- end down-arrow -->
+            </div> <!-- end row -->
+        </div> <!-- end full-page -->
+        <div id="portfolio-content" class="portfolio-content">
+            <div class="row">
+                <div class="col-xs-12">
+                    
+                    <div id="research" class="col-xs-12">
+                        <div class="sprint col-xs-12 col-md-7">
+                            <div class="sprint-title"><h1>The Research</h1></div>
+                            <h3>Neuro Vigor needed to reach collaborators. Focusing on that audience we started researching what collaborators needed and wanted to see.</h3>
+                            <ul>
+                                <li>
+                                    <h1>> Surveyed needs/wants of the target audience</h1>
+                                    <p>Lead: Kaela & Nick</p>
+                                    <p>Objective: Find out what our audience needs. By knowing what they need, we can design to fit the needs of our audience, and hopefully include their wants as well.</p>
+                                </li>
+                                <li>
+                                    <h1>> Completed a competitive analysis</h1>
+                                    <p>Lead: Nick</p>
+                                    <p>Objective: Analyze the competition of Neuro Vigor. Through familiarizing ourselves with the competition's designs and content, we can determine industry standards, find successful approaches, and learn what problems others have come across.</p>
+                                </li>
+                                <li>
+                                    <h1>> Conducted a heuristic analysis</h1>
+                                    <p>Lead: Kaela</p>
+                                    <p>Analyze the pain points of Neuro Vigor's current site, and use them to learn what to avoid in the new design.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-md-5">
+                            <img class="img-responsive" src="../img/neurovigor/heuristic.png" alt="Heuristic Evaluation" />
+                        </div>
+                    </div>
+                    
+                    <div id="design" class="col-xs-12">
+                        <div class="col-xs-12 col-md-6">
+                            <img class="img-responsive" src="../img/neurovigor/sketchesWireframes.png" alt="Sketches & Wireframes" />
+                        </div>
+                        <div class="design-sprint sprint col-xs-12 col-md-6">
+                            <div class="sprint-title"><h1>The Design</h1></div>
+                            <h3>We worked through an iterative design phase. The design we made was one that constantly evolved as we received feedback and developed the site.</h3>
+                            <ul>
+                                <li>
+                                    <h1>> Style Guide & Mood Board</h1>
+                                    <p>Lead: Nick & Cameron</p>
+                                    <p>Neuro Vigor did not have a pre-existing style guide or mood board, so we made one for them before we started on our designs. Having a definitive style to follow was something we needed to set before we could start designing.</p>
+                                </li>
+                                <li>
+                                    <h1>> The Colors</h1>
+                                    <p>Lead: Nick & Kaela</p>
+                                    <p>We chose to highlight the colors of Neuro Vigor’s logo throughout the site. Highlighting their distinctive blue and gray pulled the design together and gave it a sense of unity. Blue also promotes authenticity and trustworthiness, traits important for a pharmaceutical start-up.</p>
+                                </li>
+                                <li>
+                                    <h1>> The Fonts</h1>
+                                    <p>Lead: Nick</p>
+                                    <p>Neuro Vigor uses the font Kelson Sans in their logo. We chose to use this font for headings, and Myriad Pro for body text.</p>
+                                </li>
+                                <li>
+                                    <h1>> Sketches</h1>
+                                    <p>Lead: Full team</p>
+                                    <p>Separately, we all sketched our own ideas for the new design of Neuro Vigor’s website. Afterwards, we came together, compared sketches, and determined what designs not only looked best, but also worked best for our audience.</p>
+                                </li>
+                                <li>
+                                    <h1>> Wireframes</h1>
+                                    <p>Lead: Kaela & Nick</p>
+                                    <p>More hi-fi than our sketches, our wireframes combined the designs we liked from our sketches into a more concrete design that we could get feedback on from sponsor from Neuro Vigor</p>
+                                </li>
+                                <li>
+                                    <h1>> Mockups</h1>
+                                    <p>Lead: Kaela & Nick</p>
+                                    <p>Our mockups then further refined the wireframes by adding color and pictures instead of placeholders.</p>
+                                </li>
+                                <li>
+                                    <h1>> Prototyping</h1>
+                                    <p>Lead: Kaela</p>
+                                    <p>The final step of our design phase, we created an interactive prototype of the complete site using Adobe XD. We used this prototype to conduct usability testing with our target audience, which led to minor information architecture changes in our design.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div id="development" class="col-xs-12">
+                        <div class="development-sprint sprint col-xs-12 col-md-7">
+                            <div class="sprint-title"><h1>The Development</h1></div>
+                            <h3>Development was the part of the design I contributed the most in. Being familiar with WordPress, I quickly became the internal expert on the subject.</h3>
+                            <ul>
+                                <li>
+                                    <h1>> WordPress</h1>
+                                    <p>Lead: Nick</p>
+                                    <p>Neuro Vigor was already using WordPress for their current site. In order to keep the new site as familiar as possible when maintaining it, we decided to develop the new site as a WordPress theme.</p>
+                                </li>
+                                <li>
+                                    <h1>> Advanced Custom Fields</h1>
+                                    <p>Lead: Nick</p>
+                                    <p>In order to customize the WordPress editing screen for pages we used Advanced Custom Fields. This allowed us to simplify and streamline the editing process for each page template.</p>
+                                </li>
+                                <li>
+                                    <h1>> Bootstrap</h1>
+                                    <p>Lead: Nick</p>
+                                    <p>While not a requirement from Neuro Vigor, we decided to make the site responsive using Bootstrap. Using this, we could adapt the site for any screen size.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-md-5">
+                            <img class="img-responsive" src="../img/neurovigor/mockups.png" alt="Mockups" />
+                        </div>
+                    </div>
+                    
+                    <div class="button col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+                        <a href="neurovigor-designDoc.pdf" target="_blank"><i class="fa fa-file-text"></i> View the Design Document</a>
+                    </div>
+                    
+                    <div class="back-link col-xs-10 col-xs-offset-1">
+                        <a href="../portfolio.html">Explore some other projects</a>
+                    </div> <!-- end back link -->
+                </div> <!-- end col -->
+            </div> <!-- end row -->
+        </div> <!-- end portfolio-content -->
+        <div class="row">
+            <div class="footer col-xs-12">
+                <div class="contact">
+                    <div class="col-xs-10 col-xs-offset-1">
+                        <h3>Nick Gould</h3>
+                        <p>B.S. Computer Graphics Technology: Web Design &amp; Development<br/><span class="hidden-link"><a href="https://www.purdue.edu/">Purdue University:</a></span> <span class="hidden-link"><a href="https://polytechnic.purdue.edu/">Purdue Polytechnic institute</a></span><br/></p>
+                        <p>
+                            <a href="../index.html">Home</a>
+                            <a href="mailto:ngould95@gmail.com">Mail</a>
+                            <a href="../portfolio.html">Portfolio</a>
+                            <a href="../resume.html">Resume</a>
+                            <a href="../about.html">About</a>
+                        </p>
+                    </div> <!-- end col -->
+                </div> <!-- end contact -->
+            </div> <!-- end footer -->
+        </div> <!-- end row -->
+    </div> <!-- end containter-fluid -->
+</body>
+</html>
