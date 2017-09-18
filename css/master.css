@@ -337,3 +337,22 @@ blockquote {
     text-indent: .1em;
     list-style: circle;
 }
+
+.imp-callout {
+    font-size: 2rem;
+    text-indent: -1rem !important;
+}
+
+.callout {
+    color: #25e36b !important;
+}
+
+.inline-img {
+    margin: 20px auto 20px auto !important;
+    width: 100%;
+    display: block;
+}
+
+.task-item {
+    margin-bottom: 20px;
+}
