@@ -360,7 +360,7 @@ blockquote {
 .tile {
     height: 300px;
     margin-bottom: 20px;
-    background-size: 160%;
+    background-size: 225%;
     background-position: center center;
     background-repeat: no-repeat;
     transition: .5s;
@@ -368,7 +368,7 @@ blockquote {
 }
 
 .tile:hover {
-    background-size: 200%;
+    background-size: 250%;
     transition: .5s;
 }
 
