@@ -356,3 +356,46 @@ blockquote {
 .task-item {
     margin-bottom: 20px;
 }
+
+.tile {
+    height: 300px;
+    margin-bottom: 20px;
+    background-size: 160%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: .5s;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.tile:hover {
+    background-size: 200%;
+    transition: .5s;
+}
+
+.tile-container {
+    margin-bottom: 75px;
+}
+
+.tile-container h1 {
+    margin-left: 40px;
+}
+
+.thescore-tile {
+    background-image: url('../img/thescore/cover.png');
+}
+
+.neurovigor-tile {
+    background-image: url('../img/neurovigor/cover.png');
+}
+
+.ta-tile {
+    background-image: url('../img/ta-finder/cover.png');
+}
+
+.pbo-tile {
+    background-image: url('../img/pbo/cover.png');
+}
+
+.roxy-tile {
+    background-image: url('../img/roxy/cover.png');
+}
