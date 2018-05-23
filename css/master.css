@@ -380,6 +380,10 @@ blockquote {
     margin-left: 40px;
 }
 
+.hpe-tile {
+    background-image: url('../img/hpe/cover.png');
+}
+
 .thescore-tile {
     background-image: url('../img/thescore/cover.png');
 }

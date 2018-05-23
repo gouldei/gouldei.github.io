@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+    
+<html>
+<head>
+    <title>HPE // Nicholas Gould</title>
+    
+    <!-- disable device scaling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="../img/icon.png">
+    
+    <!-- CSS -->
+    <link href="../css/master.css" rel="stylesheet" type="text/css">
+    
+    <!-- Google Fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+    </style>
+
+    <!-- Font Awesome -->
+    <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    
+    <!-- typed.js -->
+    <script src="../js/typed.min.js"></script>
+    <script>
+        $(function(){
+            $(".element").typed({
+                strings: ["Hewlett Packard Enterprise"],
+                typeSpeed: 0
+            });
+        });
+    </script>
+    
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #333;
+        }
+    </style>
+    
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-60302515-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)};
+        gtag('js', new Date());
+
+        gtag('config', 'UA-60302515-1');
+    </script>
+    
+    <script type="text/javascript">
+        //smooth crolling with bootstrap carousel exception by Mark E on StackOverflow: http://stackoverflow.com/questions/17536379/twitter-bootstrap-carousel-right-left-arrows-not-working
+
+        $(function() {
+            $('a[href*=#]:not([href=#])').click(function() {
+                if( ($(this).attr("href")=="#carousel")) return;//This is the exception
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="container-fluid">
+        <div class="full-page">
+            <div class="row">
+                <div id="typed" class="col-xs-10 col-xs-offset-1">
+                    <div class="col-xs-12">
+                        <h1><span class="element"></span></h1>
+                    </div> <!-- end col -->
+                </div> <!-- end typed -->
+            </div> <!-- end row -->
+
+            <div class="row">
+                <div class="description col-xs-10 col-xs-offset-1">
+                    <div class="col-xs-12">
+                        <p>As part of our UX Design Experience Studio we worked with Hewlett Packard Enterprise and their 3PAR StoreServ flash storage arrays.</p>
+                        <p>Team Members: <a href="http://www.abileneperez.com">Abby Perez</a> (Project owner), Nick Gould (Project co-lead), <a href="http://delaneyrundell.myportfolio.com">Delaney Rundell</a> (Project co-lead), <a href="http://www.andrewjvetter.com">AJ Vetter</a>, Anna Ding, Austin Johnson, Lucca McKay, Kassandra Melkey</p><br/>
+                        <p>Problem statement: Update notifications for HPE 3PAR StoreServ flash storage arrays were ineffective at communicating the right information to users and motivating them to update.</p>
+                        <br/>
+                        <a href="https://www.hpe.com/3PAR/">HPE.com</a><br/>
+                    </div> <!-- end col -->
+                </div> <!-- end description -->
+            </div> <!-- end row -->
+            
+            <div class="row">
+                <div class="scroll col-xs-12">
+                    <div class="scroll-content">
+                        <div class="scroll-image">
+                            <img src="../img/scroll.png" alt="Scroll Down" class="img-responsive" />
+                        </div>
+                        <div class="scroll-text">
+                            <a href="#portfolio-content"> Scroll Down</a>
+                        </div>
+                    </div> <!-- end col -->
+                </div> <!-- end down-arrow -->
+            </div> <!-- end row -->
+        </div> <!-- end full-page -->
+        <div id="portfolio-content" class="portfolio-content">
+            <div class="row">
+                <div class="col-xs-12">
+                    
+                    <div id="research" class="col-xs-12">
+                        <div class="sprint col-xs-12 col-md-7">
+                            <div class="sprint-title"><h1>Research</h1></div>
+                            <ul>
+                                <li>
+                                    <h1>&gt; Our users</h1>
+                                    <p>HPE was able to provide us with information about our users as a starting point for our research. Based upon their information we were able to research more into these users to discover their needs and requirements through interviews.</p>
+                                    <ul>
+                                        <li>Storage specialists</li>
+                                        <li>System administrators</li>
+                                        <li>Storage architects</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h1>&gt; Literature review</h1>
+                                    <p>We looked at a variety of articles about updates and notifying users of updates. The main points we found about update notifications were the topics of Habituation, users don't understand why updates are important, and that updates are seen as an inconvenience. We also learned from a paper published in the proceedings of the 2016 CHI Conference on Huan Factors in Computing Systems that updating can be segmented into 6 distinct stages. We used these stages throughout the rest of the project to organize our data and findings.</p>
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <img class="img-responsive inline-img" src="../img/hpe/stages-of-updating.png" alt="The 6 stages of updating"/>
+                                        </div>
+                                    </div>
+                                    
+                                </li>
+                                <li>
+                                    <h1>&gt; Competitive analysis</h1>
+                                    <p>The team tried to look at the competition for 3PAR. This included products from PureStorage, Dell, and IBM. Unfortunately, without purchasing these systems, we were unable to analyze them.</p>
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <img class="img-responsive inline-img" src="../img/hpe/competition.png" alt="Competition"/>
+                                        </div>
+                                    </div>
+                                    
+                                </li>
+                                <li>
+                                    <h1>&gt; User interview</h1>
+                                    <p>The team interviewed a Virtualization Systems Administrator at Purdue University, a customer and user of 6 3PAR arrays. She was able to give us valuable insight into how she is notified about updates and the process she goes through each time she receives a notification of an update. We were able to discuss her pain points in the process as well as the parts of the process that she liked. This data helped us to later build a map of the user process flow from the very beginning (signing up for notifications) to the end (deciding whether or not to update).</p>
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <img class="img-responsive inline-img" src="../img/hpe/interview.png" alt="User interview"/>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h1>&gt; Cognitive walkthrough</h1>
+                                    <p>We were able to remote into a computer at HPE that had access to a 3PAR array. Two members of the team were able to try to go through the process of updating a 3PAR array while the rest of the team observed the process. This allowed us to not only see the process first-hand, but also gave us more details about the process of updating step-by-step.</p>
+                                </li>
+                                <li>
+                                    <h1>&gt; Data analysis</h1>
+                                    <p>The team came together to analyze all the data we had collected so far. We were able to build a process flow of the current process and identify the pain points associated with each step. Understanding the current flow and understanding the reasoning and motivations for each step in the process was essential in being able to develop an improved process that enhanced the user experience while still providing the performance the user expected from the system.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-md-5">
+                            <img class="img-responsive" src="../img/hpe/array.png" alt="3PAR StoreServ Array" />
+                        </div>
+                    </div>
+                    
+                    <div id="design" class="col-xs-12">
+                        <div class="col-xs-12 col-md-6">
+                            <img class="img-responsive" src="../img/hpe/design.png" alt="Sketching" />
+                        </div>
+                        <div class="design-sprint sprint col-xs-12 col-md-6">
+                            <div class="sprint-title"><h1>Design</h1></div>
+                            <h3></h3>
+                            <ul>
+                                <li>
+                                    <h1>&gt; Designing an improved process flow</h1>
+                                    <p>Using the data we had collected about the current user process flow, we worked to determine what steps could be automated, condensed, or eliminated. By analyzing the process step-by-step, we were able to develop a multi-channel user process flow that would allow the user to receive notifications across any platform they are using, making sure the notifications are getting to the users no matter where they are.</p>
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <img class="img-responsive inline-img" src="../img/hpe/desktop-email.png" alt="Desktop and email notification user flow"/>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <img class="img-responsive inline-img" src="../img/hpe/manual-mobile.png" alt="Mobile and manual user flow"/>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h1>&gt; Sketching</h1>
+                                    <p>The team worked to develop sketches of the screens and interactions that would guide the user through the new update notification process. These included designs of email notifications, desktop notifications for Windows 10 and MacOS, mobile notifications for iOS and Android, banner notifications for within the management console of the 3PAR arrays, as well as concepts of a new update section within the management console.</p>
+                                </li>
+                                <li>
+                                    <h1>&gt; Mockups</h1>
+                                    <p>Those sketches were then refined and cleaned up into mockups that we could present to our sponsors and the rest of the class. These cleaned up mockups better illustrated our ideas to the audience.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div id="development" class="col-xs-12">
+                        <div class="development-sprint sprint col-xs-12 col-md-7">
+                            <div class="sprint-title"><h1>Testing</h1></div>
+                            <h3></h3>
+                            <ul>
+                                <div class="col-xs-12 task-item">
+                                    <li>
+                                        <h1>&gt; Testing</h1>
+                                        <p>With the exception of email notifications, much of the notifications' designs were restricted by their respective style guidelines (Windows, MacOS, Android, and iOS). The team decided to instead focus on getting input on the content of these notifications using Desirability testing. We collectively chose 20 adjectives (10 positive and 10 negative) and had participants choose 3 adjectives to describe each design. We also collected their motivations for choosing these adjectives. Unfortunately, we were unable to get in contact with the users of 3PAR systems, so instead we looked to the Computer and Networking Information Technology major here at Purdue for participants who would be willing to give us input. While these participants were new to the 3PAR system, they possessed the necessary background knowledge to understand the notifications and the terminology used.</p>
+                                    </li>
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <img class="img-responsive inline-img" src="../img/hpe/testing.jpg" alt="Desirability testing"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 task-item">
+                                    <li>
+                                        <h1>&gt; Data analysis</h1>
+                                        <p>We used Microsoft Excel to analyze the qualitative data (the number of times each word was used for each design and how unanimous were the participants in their choices) from the desirability testing. This was done by using custom macros within Excel. Excel was able to give a weighted positivity score to each notification design. Looking at the highest and lowest scoring designs, we reflected on the qualitative data (the participants' comments) for each of these designs to determine the reasoning behind these scores. </p>
+                                    </li>
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <img class="img-responsive inline-img" src="../img/hpe/qualitative.png" alt="Qualitative analysis"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 task-item">
+                                    <li>
+                                        <h1>&gt; Design iteration</h1>
+                                        <p>Using the data from our analysis, we now had a list of the content our users wanted in the notifications. Using this list, we iterated on one of our designs to create our final design.</p>
+                                    </li>
+                                </div>
+                                <div class="col-xs-12 task-item">
+                                    <li>
+                                        <h1>&gt; Presentation</h1>
+                                        <p>All our data and the processes we used were collected and we created a Keynote to present this data to our class and our sponsors. HPE was highly satisfied with our solution, and they appreciated the multi-channel approach we took towards delivering notifications to their users. They found that some solutions would be much easier to implement than others, and that we could expect to see our work reflected as early as the next few updates to 3PAR systems.</p>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-md-5">
+                            <img class="img-responsive" src="../img/hpe/mockups.png" alt="Mockups" />
+                        </div>
+                    </div>
+                    
+                    <div class="button col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+                        <a href="hpe-designDoc.pdf" target="_blank"><i class="fa fa-file-text"></i> View the Design Document</a>
+                    </div>
+                    
+                    <div class="back-link col-xs-10 col-xs-offset-1">
+                        <a href="../portfolio.html">Explore some other projects</a>
+                    </div> <!-- end back link -->
+                </div> <!-- end col -->
+            </div> <!-- end row -->
+        </div> <!-- end portfolio-content -->
+        <div class="row">
+            <div class="footer col-xs-12">
+                <div class="contact">
+                    <div class="col-xs-10 col-xs-offset-1">
+                        <h3>Nick Gould</h3>
+                        <p>B.S. Computer Graphics Technology: Web Design &amp; Development<br/><span class="hidden-link"><a href="https://www.purdue.edu/">Purdue University:</a></span> <span class="hidden-link"><a href="https://polytechnic.purdue.edu/">Purdue Polytechnic institute</a></span><br/></p>
+                        <p>
+                            <a href="../index.html">Home</a>
+                            <a href="mailto:ngould95@gmail.com">Email</a>
+                            <a href="../portfolio.html">Portfolio</a>
+                            <a href="../resume.html">Resume</a>
+                            <a href="../about.html">About</a>
+                        </p>
+                    </div> <!-- end col -->
+                </div> <!-- end contact -->
+            </div> <!-- end footer -->
+        </div> <!-- end row -->
+    </div> <!-- end containter-fluid -->
+</body>
+</html>
